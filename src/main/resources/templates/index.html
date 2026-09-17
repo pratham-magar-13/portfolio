@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratham Thapa Magar — Java Backend Engineer</title>
+    <meta name="description" content="Portfolio of Pratham Thapa Magar, Java Backend Engineer specializing in Spring Boot, REST APIs, MySQL and React." />
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+<header class="nav" id="top">
+    <div class="container nav-inner">
+        <a href="#top" class="brand"><span class="brand-mark">P</span> Pratham<span class="brand-dot">.dev</span></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact" class="btn btn-small">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="eyebrow"><span class="pulse"></span> Available for backend roles · Lalitpur, Nepal</p>
+                <h1>Hi, I'm <span class="gradient">Pratham Thapa Magar</span><br />Java Backend Engineer.</h1>
+                <p class="lede">I build reliable Spring Boot backends — RESTful APIs, JPA/MySQL data layers, RBAC, and ERP features used in real local operations. Currently interning at SnigdhTech &amp; Business Solution.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+                    <a href="mailto:johnthapa13@gmail.com" class="btn btn-ghost">johnthapa13@gmail.com</a>
+                </div>
+                <div class="hero-meta">
+                    <div><strong>Java</strong><span>Spring Boot · JPA</span></div>
+                    <div><strong>REST APIs</strong><span>MVC · RBAC · ERP</span></div>
+                    <div><strong>MySQL</strong><span>PostgreSQL · Docker</span></div>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="profile-card">
+                    <div class="avatar">PT</div>
+                    <h3>Pratham Thapa Magar</h3>
+                    <p class="role">Java Backend Engineer (Intern)</p>
+                    <p class="location">Nakhipot, Lalitpur · Hybrid</p>
+                    <div class="code-block">
+                        <span class="dim">// current stack</span><br />
+                        <span class="kw">SpringBoot</span>.run(<span class="str">"erp-batch-input"</span>);<br />
+                        <span class="kw">WebClient</span>.call(<span class="str">"gemini-api"</span>);<br />
+                        rbac.secure(<span class="str">"ams-module"</span>);
+                    </div>
+                    <div class="social-row">
+                        <!-- TODO: replace hrefs with your real profile URLs -->
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                        <a href="tel:+9779807080775">+977-9807080775</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container">
+            <p class="section-eyebrow">About</p>
+            <h2>Backend engineer who cares about clean APIs and local impact.</h2>
+            <div class="two-col">
+                <p>I'm a Computer Engineering graduate (Cosmos College of Management and Technology, 2021–2026) working as a Java Backend Engineer intern at SnigdhTech. My work focuses on practical business software: bulk data entry for ERP, automatic Nepali (Bikram Sambat) date conversion, Award Management System scoping, and Role-Based Access Control for module-level security.</p>
+                <ul class="checklist">
+                    <li>Strong OOP, MVC, and monolithic-architecture fundamentals</li>
+                    <li>Comfortable across Java, Python, JavaScript, Dart — plus Spring, React, Flutter</li>
+                    <li>Exploring ML (scikit-learn, TensorFlow, PyTorch) and data tooling (Pandas, NumPy)</li>
+                    <li>Tools I use daily: Maven, Postman, Docker, Git, Jupyter</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <p class="section-eyebrow">Skills</p>
+            <h2>What I work with</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <div class="tags"><span>Java</span><span>Python</span><span>C</span><span>C++</span><span>JavaScript</span><span>Dart</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Frameworks</h3>
+                    <div class="tags"><span>Spring Core</span><span>Spring Boot</span><span>Spring Data JPA</span><span>Spring AI</span><span>React</span><span>Flutter</span><span>Thymeleaf</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+                    <div class="tags"><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Data &amp; Databases</h3>
+                    <div class="tags"><span>Pandas</span><span>NumPy</span><span>MySQL</span><span>PostgreSQL</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <div class="tags"><span>Maven</span><span>Postman</span><span>Docker</span><span>Git</span><span>Jupyter</span><span>Anaconda</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Concepts</h3>
+                    <div class="tags"><span>OOP</span><span>RESTful APIs</span><span>MVC</span><span>Monolithic Architecture</span><span>RBAC</span><span>CORS</span><span>WebClient</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+        <div class="container">
+            <p class="section-eyebrow">Experience</p>
+            <h2>Where I've worked</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-date">Jun 2026 — Present</div>
+                    <div class="timeline-body">
+                        <h3>Java Backend Engineer — SnigdhTech &amp; Business Solution</h3>
+                        <p class="muted"><em>Internship · Mahalaxmisthan, Lalitpur (Hybrid)</em></p>
+                        <ul>
+                            <li>Built a batch input feature in the company's ERP software to streamline bulk data entry and reduce manual record creation.</li>
+                            <li>Implemented automatic Nepali (Bikram Sambat) date conversion within the ERP system, improving usability for local operations.</li>
+                            <li>Authored a concept note for the AMS (Award Management System) module, outlining feature scope and implementation approach.</li>
+                            <li>Contributed to Role-Based Access Control (RBAC) implementation to manage permissions and secure module-level access.</li>
+                        </ul>
+                        <div class="tags"><span>Java</span><span>Spring Boot</span><span>ERP</span><span>RBAC</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <p class="section-eyebrow">Projects</p>
+            <h2>Things I've built</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <p class="project-stack">Java · Spring Boot · Spring AI · React</p>
+                    <h3>Gemini Chatbot Application</h3>
+                    <ul>
+                        <li>Separated React frontend and Spring Boot backend for maintainability and scalability.</li>
+                        <li>Spring Boot backend uses WebClient for efficient async calls to the Gemini API.</li>
+                        <li>Configured CORS for React ↔ Spring Boot communication.</li>
+                    </ul>
+                    <!-- TODO: replace # with your real repo URL -->
+                    <a class="link" href="#" target="_blank" rel="noopener">GitHub Link →</a>
+                </article>
+                <article class="project-card">
+                    <p class="project-stack">Java · Spring Boot · Spring Data JPA · MySQL · Thymeleaf</p>
+                    <h3>To-Do List WebApp</h3>
+                    <ul>
+                        <li>RESTful CRUD APIs with Spring Boot for task management.</li>
+                        <li>Spring Data JPA for efficient MySQL interaction.</li>
+                        <li>MVC architecture with clean separation of concerns.</li>
+                    </ul>
+                    <a class="link" href="#" target="_blank" rel="noopener">GitHub Link →</a>
+                </article>
+                <article class="project-card">
+                    <p class="project-stack">Java · Spring Boot · Spring Data JPA · MySQL</p>
+                    <h3>Banking Application</h3>
+                    <ul>
+                        <li>CRUD app: create accounts, credit, debit, balance enquiry, transfers.</li>
+                        <li>Spring Boot REST logic + Spring Data JPA with MySQL.</li>
+                    </ul>
+                    <a class="link" href="#" target="_blank" rel="noopener">GitHub Link →</a>
+                </article>
+            </div>
+            <p class="muted small">Tip: update the three “GitHub Link” hrefs in <code>src/main/resources/templates/index.html</code> with your real repository URLs.</p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <div class="container">
+            <p class="section-eyebrow">Education</p>
+            <h2>Study</h2>
+            <div class="edu-card">
+                <div>
+                    <h3>Cosmos College of Management and Technology</h3>
+                    <p>Bachelor of Computer Engineering — Tutepani, Satdobato, Lalitpur</p>
+                </div>
+                <p class="muted">Feb 2021 – Sept 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+        <div class="container contact-grid">
+            <div>
+                <p class="section-eyebrow">Contact</p>
+                <h2>Let's work together.</h2>
+                <p class="muted">Best way to reach me is email or phone. Based in Nakhipot, Lalitpur — open to hybrid roles.</p>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> <a href="mailto:johnthapa13@gmail.com">johnthapa13@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+9779807080775">+977-9807080775</a></li>
+                    <li><strong>Location:</strong> Nakhipot, Lalitpur</li>
+                    <li><strong>LinkedIn / GitHub:</strong> links in header card ↑</li>
+                </ul>
+            </div>
+            <div class="form-card">
+                <div th:if="${sent}" class="alert alert-success">Thanks! Your message was received. I'll get back to you soon.</div>
+                <div th:if="${limited}" class="alert alert-error">You've sent several messages recently — please try again in a little while.</div>
+                <div th:if="${contactError}" class="alert alert-error">Please fix the highlighted fields and try again.</div>
+                <form th:action="@{/contact}" th:object="${contactMessage}" method="post" novalidate>
+                    <!-- Honeypot anti-spam field: leave empty, hidden from humans -->
+                    <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                    <label>Name
+                        <input type="text" th:field="*{name}" placeholder="Your name" required />
+                        <small class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></small>
+                    </label>
+                    <label>Email
+                        <input type="email" th:field="*{email}" placeholder="you@example.com" required />
+                        <small class="error" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></small>
+                    </label>
+                    <label>Message
+                        <textarea th:field="*{message}" rows="5" placeholder="Hi Pratham, ..." required></textarea>
+                        <small class="error" th:if="${#fields.hasErrors('message')}" th:errors="*{message}"></small>
+                    </label>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+                <p class="muted small">Messages are stored in the app database (H2 by default, MySQL-ready).</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>© <span th:text="${#dates.year(#dates.createNow())}">2026</span> Pratham Thapa Magar · Built with Spring Boot + Thymeleaf</p>
+        <a href="#top">Back to top ↑</a>
+    </div>
+</footer>
+
+<script th:src="@{/js/main.js}" src="/js/main.js"></script>
+</body>
+</html>
